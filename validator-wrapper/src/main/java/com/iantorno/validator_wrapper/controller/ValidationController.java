@@ -8,9 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/validator")
 public class ValidationController {
 
+    //TODO https://www.baeldung.com/spring-rest-openapi-documentation
+
     @GetMapping
     String validationTest() {
         return "Hello Validator";
     }
+
+
 
 }
